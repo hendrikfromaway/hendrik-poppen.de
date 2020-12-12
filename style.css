@@ -12,8 +12,16 @@
     justify-content: center;
 }
 .logo{
+    display: flex;
+    width: 600px;
+    height:600px;
     max-width: 100%;
+    background-color: aquamarine;
+}
+.hplogo{
+    width: 200px;
     height: auto;
+    object-fit: contain;
 }
 
 @media only screen 
