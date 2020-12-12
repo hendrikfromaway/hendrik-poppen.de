@@ -38,7 +38,7 @@ and (orientation : landscape) {
     .logo{
         width: 200px;
         height: auto;
-        background-color: aquamarine;
+        background-color: crimson;
     }
 
 }
