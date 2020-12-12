@@ -11,7 +11,7 @@
     align-items: center;
     justify-content: center;
 }
-img{
+.logo{
     max-width: 100%;
     height: auto;
 }
@@ -22,7 +22,7 @@ and (max-device-width: 812px)
 and (-webkit-min-device-pixel-ratio: 3)
 and (orientation : portrait) {  
 
-    img{
+    .logo{
         padding: 60px;
     }
 
@@ -35,7 +35,7 @@ and (-webkit-device-pixel-ratio : 3)
 and (orientation : landscape) { 
 
 
-    img{
+    .logo{
         width: 200px;
         height: auto;
     }
