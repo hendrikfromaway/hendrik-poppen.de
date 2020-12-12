@@ -40,7 +40,6 @@ and (orientation : portrait) {
         width: 320px;
         height:320px;
         max-width: 100%;
-        background-color: aquamarine;
     }
     .hplogo{
         width: 200px;
@@ -63,7 +62,6 @@ and (orientation : landscape) {
         width: 320px;
         height:320px;
         max-width: 100%;
-        background-color: aquamarine;
     }
     .hplogo{
         width: 180px;
