@@ -33,13 +33,13 @@ and (orientation : portrait) {
 
     .logo{
         display: flex;
-        width: 200px;
-        height:200px;
+        width: 340px;
+        height:340px;
         max-width: 100%;
         background-color: aquamarine;
     }
     .hplogo{
-        width: 160px;
+        width: 280px;
         height: auto;
         margin: 0 auto 0 auto;
         object-fit: contain;
@@ -56,13 +56,13 @@ and (orientation : landscape) {
 
     .logo{
         display: flex;
-        width: 200px;
-        height:200px;
+        width: 240px;
+        height:240px;
         max-width: 100%;
         background-color: aquamarine;
     }
     .hplogo{
-        width: 120px;
+        width: 180px;
         height: auto;
         margin: 0 auto 0 auto;
         object-fit: contain;
