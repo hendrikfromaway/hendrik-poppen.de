@@ -32,7 +32,17 @@ and (-webkit-min-device-pixel-ratio: 3)
 and (orientation : portrait) {  
 
     .logo{
-        padding: 60px;
+        display: flex;
+        width: 200px;
+        height:200px;
+        max-width: 100%;
+        background-color: aquamarine;
+    }
+    .hplogo{
+        width: 160px;
+        height: auto;
+        margin: 0 auto 0 auto;
+        object-fit: contain;
     }
 
 }
@@ -45,9 +55,17 @@ and (orientation : landscape) {
 
 
     .logo{
+        display: flex;
         width: 200px;
+        height:200px;
+        max-width: 100%;
+        background-color: aquamarine;
+    }
+    .hplogo{
+        width: 120px;
         height: auto;
-        background-color: crimson;
+        margin: 0 auto 0 auto;
+        object-fit: contain;
     }
 
 }
