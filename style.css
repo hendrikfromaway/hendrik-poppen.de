@@ -42,6 +42,7 @@ and (orientation : portrait) {
         max-width: 100%;
     }
     .logo:hover{
+        transform: scale(1);
     }
     .hplogo{
         width: 200px;
@@ -66,6 +67,7 @@ and (orientation : landscape) {
         max-width: 100%;
     }
     .logo:hover{
+        transform: scale(1);
     }
     .hplogo{
         width: 180px;
