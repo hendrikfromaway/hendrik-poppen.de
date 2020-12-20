@@ -11,15 +11,8 @@
     align-items: center;
     justify-content: center;
 }
-.logo{
-    display: flex;
-    width: 40rem;
-    height: 40rem;
-    max-width: 100%;
-    background: red;
-}
 .hplogo{
-    width: 300px;
+    width: 20rem;
     height: auto;
     margin: 0 auto 0 auto;
     object-fit: contain;
