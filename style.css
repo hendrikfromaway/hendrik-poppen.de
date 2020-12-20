@@ -1,19 +1,43 @@
-*{
-    padding: 0;
-    margin: 0;
+:root{
+    --clr-primary-900: #000000;
+    --clr-secondary-600:#999999;
+
+    --ff-primary: 'Roboto', sans serif;
+    --ff-accent: 'Playfair Display', serif;
+}
+
+*,
+*::before,
+*::after {
     box-sizing: border-box;
     overflow: hidden;
 }
-.container{
-    height: 100vh; 
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
+body {
+    font-family: var(--ff-primary);
+    font-weight: 400;
+    font-size: 1.3125rem; 
+    line-height: 1.6; 
 }
-.hplogo{
-    width: 20rem;
-    height: auto;
-    margin: 0 auto 0 auto;
-    object-fit: contain;
+
+body,
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 1rem 3rem;
+}
+
+img {
+    display: block;
+    max-width: 60%;
 }
