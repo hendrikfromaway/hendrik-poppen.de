@@ -5,7 +5,7 @@
     overflow: hidden;
 }
 .container{
-    height: calc(100vh - 3px); 
+    height: calc(97vh); 
     width: 100%;
     display: flex;
     align-items: center;
@@ -17,65 +17,9 @@
     height:600px;
     max-width: 100%;
 }
-.logo:hover{
-    background-color: lightcoral;
-    transform: scale(1.1);
-    transition: .5s ease-in-out;
-}
 .hplogo{
     width: 400px;
     height: auto;
     margin: 0 auto 0 auto;
     object-fit: contain;
-}
-
-@media only screen 
-and (min-device-width: 375px) 
-and (max-device-width: 812px) 
-and (-webkit-min-device-pixel-ratio: 3)
-and (orientation : portrait) {  
-
-    .logo{
-        display: flex;
-        width: 320px;
-        height:320px;
-        max-width: 100%;
-    }
-    .logo:hover{
-        background-color: white;
-        transform: scale(1);
-    }
-    .hplogo{
-        width: 200px;
-        height: auto;
-        margin: 0 auto 0 auto;
-        object-fit: contain;
-    }
-
-}
-
-@media only screen 
-and (min-device-width : 375px) 
-and (max-device-width : 812px) 
-and (-webkit-device-pixel-ratio : 3)
-and (orientation : landscape) { 
-
-
-    .logo{
-        display: flex;
-        width: 320px;
-        height:320px;
-        max-width: 100%;
-    }
-    .logo:hover{
-        background-color: white;
-        transform: scale(1);
-    }
-    .hplogo{
-        width: 180px;
-        height: auto;
-        margin: 0 auto 0 auto;
-        object-fit: contain;
-    }
-
 }
