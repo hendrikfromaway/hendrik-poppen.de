@@ -18,5 +18,6 @@ section{
     align-items: center;
 }
 .hplogo{
+    max-width: 40%;
     object-fit: contain;
 }
