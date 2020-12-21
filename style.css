@@ -10,9 +10,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    max-width: 50%;
 }
 
 .hplogo{
-    max-width: 40%;
+    max-width: 100%;
     object-fit: contain;
 }
