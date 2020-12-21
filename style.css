@@ -1,30 +1,8 @@
-:root{
-    --clr-primary-900: #000000;
-    --clr-secondary-600:#999999;
-
-    --ff-primary: 'Roboto', sans serif;
-    --ff-accent: 'Playfair Display', serif;
-}
-
 *,
 *::before,
 *::after {
     box-sizing: border-box;
     overflow: hidden;
-}
-
-body {
-    font-family: var(--ff-primary);
-    font-weight: 400;
-    font-size: 1.3125rem; 
-    line-height: 1.6; 
-}
-
-body,
-h1,
-h2,
-h3,
-p {
     margin: 0;
 }
 
@@ -33,10 +11,8 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1em 1em;
 }
 
-img {
-    display: block;
-    max-width: 60%;
+.hplogo {
+    max-width: 100%;
 }
