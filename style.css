@@ -11,8 +11,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 1em 1em;
 }
 
 .hplogo {
+    width: 30%;
     max-width: 100%;
 }
