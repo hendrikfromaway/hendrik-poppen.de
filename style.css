@@ -21,6 +21,10 @@
     align-items: center;
 }
 
+.container:hover{
+    background-color: darksalmon;
+}
+
 .hplogo{
     max-width: 40%;
     object-fit: contain;
