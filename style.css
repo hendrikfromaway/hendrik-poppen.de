@@ -7,14 +7,14 @@
 }
 
 .container{
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 1em 1em;
 }
 
-.hplogo {
-    width: 30%;
-    max-width: 100%;
+.hplogo{
+    width: 50%;
+    object-fit: contain;
 }
