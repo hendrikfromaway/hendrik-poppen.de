@@ -11,9 +11,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 8em 8em;
 }
 
 .hplogo{
     object-fit: contain;
-    max-width: 30%;
 }
