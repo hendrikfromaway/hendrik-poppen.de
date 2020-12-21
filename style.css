@@ -14,8 +14,8 @@
 }
 
 .container{
-    width: 20vw;
-    height: 20vw;
+    width: 40vw;
+    height: 40vw;
     display: flex;
     justify-content: center;
     align-items: center;
